@@ -24,7 +24,7 @@ const PORT = process.env.PORT;//importing PORT environment variable from .env fi
 
 
 
-const __dirname = path.resolve();
+//const __dirname = path.resolve();
 
 app.use(express.json({ limit: '10mb' })); // this middleware limit is increasing backend image size limit
 app.use(express.urlencoded({ limit: '10mb', extended: true }));
